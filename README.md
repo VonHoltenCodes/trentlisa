@@ -33,10 +33,11 @@ trentlisa/
 │   ├── travel/            # Travel information page
 │   └── page.tsx           # Homepage with countdown
 ├── components/            # Reusable React components
-├── lib/                   # Utility functions
-├── public/                # Static assets
-├── photos/                # Wedding and engagement photos
-└── utils/                 # Helper utilities
+├── lib/                   # Utility functions and API helpers
+├── public/                # Static assets and images
+├── photos/                # Wedding photo directory
+├── utils/                 # Helper utilities (empty)
+└── deploy.sh              # Deployment script
 ```
 
 ## 🛠️ Development
@@ -53,6 +54,7 @@ npm install
 ### Development Server
 ```bash
 npm run dev
+# Runs on http://localhost:3000 by default
 ```
 
 ### Production Build
